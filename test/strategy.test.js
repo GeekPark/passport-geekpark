@@ -4,6 +4,8 @@ const $require = require('proxyquire');
 const GeekParkStrategy = require('../lib/');
 
 describe('Strategy', function() {
+  this.timeout(50000);
+
   describe('constructed', function() {
     var strategy = new GeekParkStrategy({
       clientID: 'ABC123',

@@ -40,4 +40,7 @@ module.exports = () => {
 };
 ```
 
+### Tip
+If you are using `< Node 6.0`, you need babel transform for `ES6 class`.
+
 ### License ([MIT](http://opensource.org/licenses/MIT))

@@ -1,7 +1,7 @@
 {
   "name": "passport-geekpark",
   "version": "1.0.0",
-  "description": "",
+  "description": "Official passport strategy for authenticating to GeekPark",
   "main": "./lib",
   "scripts": {
     "test": "npm run eslint && node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js",
