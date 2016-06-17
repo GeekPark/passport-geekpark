@@ -4,8 +4,9 @@
   "description": "",
   "main": "./lib",
   "scripts": {
-    "test": "node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js",
-    "test:watch": "node_modules/.bin/mocha --require test/bootstrap/node -w test/*.test.js"
+    "test": "npm run eslint && node_modules/.bin/mocha --require test/bootstrap/node test/*.test.js",
+    "test:watch": "node_modules/.bin/mocha --require test/bootstrap/node -w test/*.test.js",
+    "eslint": "eslint ."
   },
   "keywords": [],
   "author": "",

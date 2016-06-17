@@ -1,7 +1,5 @@
-const fs = require('fs');
 const chai = require('chai');
 const util = require('util');
-const path = require('path');
 const $require = require('proxyquire');
 const GeekParkStrategy = require('../lib/');
 
